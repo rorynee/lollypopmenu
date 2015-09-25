@@ -1,0 +1,43 @@
+/*
+    @name styles.css
+    @description The styles used on the website
+*/
+
+// Main Container Styles
+#maincontainer{
+    width: 70%;
+    margin:0 auto;
+    padding-top: 5px;
+}
+// Styling the elements side by side.
+// Used for placing the upload functionality
+#buttonright{
+    float:right;
+}
+#buttonleft{
+    float:left;
+}
+#clear{
+    clear: both;
+}
+// style the header
+.headerPop{
+    background-color: red;
+    color: white;
+}
+// Styling the main drag and drop area
+#dragimg, #sortimg{
+    width: 75px;
+    height: 90px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+// Styling the lolly pop choice area
+#b_pics{
+    height: 150px;
+    background-color: #f0f0f0;
+}
+// Style to be added when an image is held over a droppable area
+#b_pics.dropped,#a_pics.dropped{
+    background-color: burlywood;
+}

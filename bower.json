@@ -1,0 +1,35 @@
+{
+  "name": "lollypop",
+  "version": "1.0.0",
+  "authors": [
+    "Rory Nee <rory_nee@hotmail.com>"
+  ],
+  "description": "LollyPop Menu jQuery Drag and Drop HTML5, Sortable, Node file upload",
+  "keywords": [
+    "HTML5",
+    "Node",
+    "jQuery",
+    "jQuery-ui",
+    "Express",
+    "Multer",
+    "Drag and Drop",
+    "Sortable",
+    "Mocha",
+    "Should",
+    "Supertest",
+    "Bootstrap"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "jquery": "~2.1.4",
+    "jquery-ui": "~1.11.4"
+  }
+}

@@ -1,0 +1,60 @@
+<% include templates/header.ejs %>
+    <div id="maincontainer">
+    
+    
+    <div class="headerPop">
+        <div id="buttonleft"><img src="/images/header.png" alt="LollyPop Logo" /></div>
+        <div id="buttonright">
+            <form role="form" id="uploadForm" enctype="multipart/form-data" action="/menuitem" method="post">
+                <div class="form-group">
+                    <label>Add image to menu</label>
+                    <input type="file" name="file" /><br/>
+                    <input type="submit" class="btn btn-info" value="Upload Image" name="submit">
+                </div>
+            </form>
+            <% if(typeof message !== 'undefined'){ %>
+                    <div class="alert alert-danger" role="alert">
+                            <p class="alert-link error_message">Error: <%= message %> </p>
+                    </div>
+            <%  }  %>
+        </div>
+        <div id="clear"></div>
+    </div>
+    <p>&nbsp;&nbsp;</p>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">Lolly Pops To Choose From</h3>
+      </div>
+      <div id="a_pics" class="panel-body">
+        
+      </div>
+    </div>
+
+    <div id="buttonright">
+        <div class="btn-group">
+            <a class="btn btn-lg btn-info pull-left" href="/" role="button">Reset</a>
+            <button class="btn btn-lg btn-info pull-right" onclick="showJsonData();" >Save</button>
+        </div>
+    <p>&nbsp;&nbsp;</p></div>
+    <div id="clear"></div>
+
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">Lolly Pop Choices</h3>
+      </div>
+      <div id="b_pics" class="panel-body" >
+      
+      </div>
+    </div>
+
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">Final Lolly Pop Choices Menu As JSON</h3>
+      </div>
+      <div id="menujson" class="panel-body" >
+      
+      </div>
+    </div>
+    
+    </div>
+<% include templates/footer.ejs %>
