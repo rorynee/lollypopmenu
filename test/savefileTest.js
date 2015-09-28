@@ -64,10 +64,9 @@ describe('LPT - Save File Function - With File Creation - Not A PNG', function()
      * Creates a file in the uploads folder. Used to simulate a file uploaded
      * @returns {undefined}
      */
-    before(function(done) {    
+    before(function() {    
         fs.writeFile(tempFile, 'Fake Image Created', function (err) {
             if (err) throw err;
-            done();
         });
     });
 
@@ -111,20 +110,18 @@ describe('LPT - Save File Function - With File Creation - Is A PNG', function(){
      * Creates a file in the uploads folder. Used to simulate a file uploaded
      * @returns {undefined}
      */
-    before(function(done) {    
+    before(function() {    
         fs.writeFile(tempFile, 'Fake Image Created', function (err) {
             if (err) throw err;
-            done();
         });
     });
     /*
      * Delete the Image Created by the Save File Fnction.
      * @returns {undefined}
      */
-    afterEach(function(done) {
+    afterEach(function() {
         fs.unlink(targetPath, function (err) {
             if (err) throw err;
-            done();
         });
     });
 
