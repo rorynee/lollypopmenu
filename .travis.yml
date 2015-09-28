@@ -4,4 +4,5 @@ node_js:
   - "0.11"
   - "0.10"
   - "0.8"
+sudo: required
 before_script: chmod 0777 ./node_modules/.bin/mocha
