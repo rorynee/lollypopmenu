@@ -121,7 +121,7 @@ describe('LPT - Save File Function - With File Creation - Is A PNG', function(){
      * Delete the Image Created by the Save File Fnction.
      * @returns {undefined}
      */
-    after(function(done) {
+    afterEach(function(done) {
         fs.unlink(targetPath, function (err) {
             if (err) throw err;
             done();
