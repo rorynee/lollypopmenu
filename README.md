@@ -23,6 +23,11 @@ HTML5, Bootstrap, jQuery, jQuery-ui, CSS3, JavaScript
 #### Development Technologies
 Bower (download of bootstrap, jQuery, jQuery-ui), Grunt (file organisation) using cssmin, uglify and watch 
 
+### Automatic Builds using TravisCI
+![alt text][travis]
+
+[travis]: https://travis-ci.org/rorynee/lollypopmenu.svg?branch=master "Travis CI Logo"
+
 ## Usage
 
 Run the project
