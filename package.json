@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "test": "mocha -R spec -b"
+    "test": "./node_modules/mocha/bin/mocha -R spec -b"
   },
   "description": "LollyPop Menu jQuery Drag and Drop HTML5, Sortable, Node file upload",
   "author": "Rory Nee",

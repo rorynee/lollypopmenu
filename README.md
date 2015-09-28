@@ -10,6 +10,7 @@ Using Node develop an application called LollyPop Menu. The main idea here is to
 -	The file upload option should use Node.js
 -	Testing required
 -	Comments required
+-       Add Travis build passing badge
 
 ## Technologies Used
 
