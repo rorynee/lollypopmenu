@@ -84,7 +84,7 @@ describe('LPT - Save File Function - With File Creation - Not A PNG', function()
                      mimetype: 'image/jpg',
                      destination: '../uploads/',
                      filename: '2faff4d4a81bed094713f242ac458f3d',
-                     path: '.\\uploads\\2faff4d4a81bed094713f242ac458f3d',
+                     path: './uploads/2faff4d4a81bed094713f242ac458f3d',
                      size: 30904 
                    };
         req.body = { submit: 'Upload Image' };
@@ -139,7 +139,7 @@ describe('LPT - Save File Function - With File Creation - Is A PNG', function(){
                      mimetype: 'image/png',
                      destination: '../uploads/',
                      filename: '2faff4d4a81bed094713f242ac458f3d',
-                     path: '.\\uploads\\2faff4d4a81bed094713f242ac458f3d',
+                     path: './uploads/2faff4d4a81bed094713f242ac458f3d',
                      size: 30904 
                    };
         req.body = { submit: 'Upload Image' };
@@ -173,7 +173,7 @@ describe('LPT - Save File Function - With File Creation - Test Form POST', funct
                      mimetype: 'image/png',
                      destination: '../uploads/',
                      filename: '2faff4d4a81bed094713f242ac458f3d',
-                     path: '.\\uploads\\2faff4d4a81bed094713f242ac458f3d',
+                     path: './uploads/2faff4d4a81bed094713f242ac458f3d',
                      size: 30904 
                    };
         req.body = { submit: 'Upload Image' };
