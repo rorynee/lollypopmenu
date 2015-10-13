@@ -101,7 +101,7 @@ describe('LPT - Save File Function - With File Creation - Not A PNG', function()
  * @name LPT - Save File Function - With File Creation - Is A PNG.
  * @description Setting up the test conditions and then running the test.    
  */
-describe('LPT - Save File Function - With File Creation - Is A PNG', function(){
+describe('LPT - Save File Function - With File Creation - Is A PNG - ', function(){
     // Temp and target file location
     var tempFile = path.resolve('./uploads/2faff4d4a81bed094713f242ac458f3d');
     var targetPath = path.resolve('./public/images/pops/currentimage.png');
@@ -140,7 +140,7 @@ describe('LPT - Save File Function - With File Creation - Is A PNG', function(){
                      destination: '../uploads/',
                      filename: '2faff4d4a81bed094713f242ac458f3d',
                      path: './uploads/2faff4d4a81bed094713f242ac458f3d',
-                     size: 30904 
+                     size: 20000 
                    };
         req.body = { submit: 'Upload Image' };
 

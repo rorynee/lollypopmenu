@@ -33,8 +33,6 @@ app.use('/menuitem', menuitem);
 // Declaration of the route used to access images shown on the index page
 app.use('/images/',serveIndex(__dirname + '/public/images'));
 
-
-
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   var err = new Error('Not Found');

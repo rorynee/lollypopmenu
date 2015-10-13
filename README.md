@@ -11,11 +11,12 @@ Using Node develop an application called LollyPop Menu. The main idea here is to
 -	Testing required
 -	Comments required
 -       Add Travis build passing badge
+-       Use a code coverage tool to test coverage i.e. Istanbul
 
 ## Technologies Used
 
 #### Node Technologies
-Node.js, NPM, Express framework, Multer (multi part forms), Mocha, Chai, Should, Supertest
+Node.js, NPM, Express framework, Multer (multi part forms), Mocha, Chai, Should, Supertest, istanbul (code coverage tool)
 
 #### User experience Technologies 
 HTML5, Bootstrap, jQuery, jQuery-ui, CSS3, JavaScript
@@ -28,13 +29,24 @@ Bower (download of bootstrap, jQuery, jQuery-ui), Grunt (file organisation) usin
 
 [travis]: https://travis-ci.org/rorynee/lollypopmenu.svg?branch=master "Travis CI Logo"
 
+
+### Code Coverage Results
+![alt text][coverage]
+[coverage]: https://raw.github.com/rorynee/lollypopmenu/master/public/images/codecoverage.png  "Coverage Results"
+
+For full results go to the html page located in coverage/lcov-report/index.htm 
+
 ## Usage
 
 Run the project
 ```sh
-$ npm start
+    $ npm start
 ```
 Text the project
 ```sh
-$ npm test
+    $ npm test
+```
+Run code coverage tool
+```sh
+    $ npm run coverage
 ```

@@ -1,12 +1,13 @@
 {
-  "name": "LollyPopMenu",
+  "name": "lollypopmenu",
   "version": "1.0.0",
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "test": "mocha -R spec -b"
+    "test": "mocha -R spec -b",
+    "coverage": "istanbul cover ./node_modules/mocha/bin/_mocha -- -R spec -b"
   },
-  "description": "LollyPop Menu jQuery Drag and Drop HTML5, Sortable, Node file upload",
+  "description": "LollyPop Menu jQuery Drag and Drop HTML5, Sortable, Node file upload, BDD Testing",
   "author": "Rory Nee",
   "keywords": [
     "HTML5",
